@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Temp Converter</title>
+  </head>
+  <body>
+    <div>
+      <label>Temperature</label>
+      <br>
+      Celsius <input type="radio" name="type" id="celsius" value="celsius">
+      Farenheit <input type="radio" name="type" id="farenheit" value="farenheit">
+      <br>
+      <input type="number" maxlength="3" name="value" id='value'>
+      <button id="converter" onclick="convertIt()">Convert</button>
+    </div>
+    <div>
+      <h3 id="converted-banner"></h3>
+    </div>
+    <script src="tempConvert.js"></script>
+  </body>
+</html>
